@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #1f8ea3;
+  color: white;
+  padding: 20px;
+}
+
+/* Contenedor central */
+.content {
+  display: flex;
+  height: 300px;
+}
+
+/* Columnas */
+.sidebar.left {
+  background-color: #f26522;
+  width: 25%;
+  padding: 20px;
+}
+
+.main {
+  background-color: #e8dcc0;
+  width: 50%;
+  padding: 20px;
+}
+
+.sidebar.right {
+  background-color: #b7d07a;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f8ea3;
+  color: white;
+  padding: 10px;
+}
