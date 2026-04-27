@@ -1,0 +1,36 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu {
+  margin: 10px 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: blue;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+.menu .active {
+  background-color: #dcdcdc;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+}

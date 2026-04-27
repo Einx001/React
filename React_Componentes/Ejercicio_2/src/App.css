@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background: #ddd;
+}
+
+/* Cabecera */
+.header {
+  background: #eee;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #999;
+  color: black;
+}
+
+/* Layout central */
+.layout {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  color: black;
+}
+
+/* Menú */
+.menu {
+  width: 20%;
+  background: #f4f4f4;
+  border: 2px solid #999;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+/* Contenido */
+.content-main {
+  width: 60%;
+  background: #fafafa;
+  border: 2px solid #999;
+  text-align: center;
+  padding: 40px;
+  color: black;
+}
+
+/* Lateral */
+.sidebar {
+  width: 20%;
+  background: #f4f4f4;
+  border: 2px solid #999;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #999;
+  margin: 10px;
+}

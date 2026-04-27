@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dcdcdc;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #2c2c5c;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Layout de la galería */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Columna de thumbnails */
+.thumbnail-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Miniaturas */
+.thumbnail {
+  width: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnail.selected {
+  border: 2px solid blue;
+}
+
+/* Imagen grande */
+.viewer img {
+  width: 500px;
+  border: 4px solid white;
+}

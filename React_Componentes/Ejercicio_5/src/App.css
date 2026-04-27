@@ -1,0 +1,86 @@
+/* RESET BÁSICO */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(to right, #1f6f8b, #99c1d9);
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* DROPDOWN */
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: #bcd4e6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown li {
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+/* CONTENT */
+.content {
+  padding: 40px;
+  background: #2a9dbb;
+  min-height: 100vh;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+}
+
+/* DATE BOX */
+.date-box {
+  background: #0b4f6c;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.date-box h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.date-box p {
+  margin: 0;
+}
+
+/* TEXT */
+.card-content h2 {
+  margin: 0 0 10px;
+}
