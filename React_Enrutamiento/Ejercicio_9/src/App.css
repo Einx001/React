@@ -1,0 +1,79 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #555;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1492724441997-5dc865305da7") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* OVERLAY */
+.overlay {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+}
+
+.overlay h1 {
+  font-size: 40px;
+}
+
+.overlay p {
+  margin: 20px 0;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.primary {
+  background: #20c997;
+  color: white;
+}
+
+.secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
