@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header h1 {
+  color: orange;
+}
+
+.search input {
+  margin-left: 10px;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #2f5fb3;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  padding: 10px;
+}
+
+/* LEFT SIDEBAR */
+.left-sidebar {
+  width: 20%;
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+.left-sidebar ul {
+  padding-left: 15px;
+}
+
+.ads {
+  margin-top: 20px;
+  background: #fff3cd;
+  padding: 10px;
+  border: 1px dashed orange;
+}
+
+/* CONTENT */
+.content {
+  width: 60%;
+  padding: 20px;
+}
+
+.post {
+  display: flex;
+  gap: 15px;
+}
+
+.img-placeholder {
+  width: 120px;
+  height: 120px;
+  background: #ccc;
+}
+
+/* RIGHT SIDEBAR */
+.right-sidebar {
+  width: 20%;
+  padding: 10px;
+}
+
+.box {
+  background: #f8d7da;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #eee;
+}
