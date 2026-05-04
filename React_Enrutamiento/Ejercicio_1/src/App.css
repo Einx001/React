@@ -1,0 +1,10 @@
+.menu {
+  background: #333;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
