@@ -1,0 +1,11 @@
+.estilo1 {
+  background-color: lightblue;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.estilo2 {
+  background-color: lightcoral;
+  border: 2px solid red;
+  padding: 10px;
+}
