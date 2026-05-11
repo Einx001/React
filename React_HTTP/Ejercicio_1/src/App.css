@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+}
+
+.contenedor {
+  width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
