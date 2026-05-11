@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.filtros {
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 10px;
+  width: 220px;
+  margin: 0 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}

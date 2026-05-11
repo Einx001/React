@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+nav {
+  background: #333;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.detalle {
+  width: 700px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.detalle img {
+  width: 300px;
+}
